@@ -1155,7 +1155,7 @@
         "kind": 5,
         "importPath": "library_management.settings",
         "description": "library_management.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = env(\"SECRET_KEY\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1']\n# Application definition",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = env(\"SECRET_KEY\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = ['https://library-management-49fk.onrender.com','https://*.127.0.0.1']\n# Application definition",
         "detail": "library_management.settings",
         "documentation": {}
     },
@@ -1164,7 +1164,7 @@
         "kind": 5,
         "importPath": "library_management.settings",
         "description": "library_management.settings",
-        "peekOfCode": "SECRET_KEY = env(\"SECRET_KEY\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
+        "peekOfCode": "SECRET_KEY = env(\"SECRET_KEY\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = ['https://library-management-49fk.onrender.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",",
         "detail": "library_management.settings",
         "documentation": {}
     },
@@ -1173,7 +1173,7 @@
         "kind": 5,
         "importPath": "library_management.settings",
         "description": "library_management.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = ['https://library-management-49fk.onrender.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
         "detail": "library_management.settings",
         "documentation": {}
     },
@@ -1182,7 +1182,16 @@
         "kind": 5,
         "importPath": "library_management.settings",
         "description": "library_management.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# CSRF_TRUSTED_ORIGINS = ['https://*.mydomain.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = ['https://library-management-49fk.onrender.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "library_management.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "library_management.settings",
+        "description": "library_management.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://library-management-49fk.onrender.com','https://*.127.0.0.1']\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"django.contrib.humanize\",",
         "detail": "library_management.settings",
         "documentation": {}
     },
